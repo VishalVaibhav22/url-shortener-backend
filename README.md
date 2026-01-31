@@ -28,7 +28,7 @@ A scalable URL shortener backend built with **Node.js**, **Express**, **MongoDB*
 
 ## High-Level Architecture
 
-
+```
 Client
   ↓
 Load Balancer
@@ -40,7 +40,7 @@ Backend Instances
   Redis Cache
       ↓
   MongoDB
-
+```
 
 - Redis serves repeated redirect requests to reduce database load
 - MongoDB acts as the persistent data store
