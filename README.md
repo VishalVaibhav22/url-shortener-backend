@@ -1,4 +1,3 @@
-```markdown
 # URL Shortener Backend
 
 A scalable URL shortener backend built with **Node.js**, **Express**, **MongoDB**, and **Redis**, designed using a clean **service-oriented architecture**. The system optimizes redirection performance using Redis caching and is structured for horizontal scalability.
