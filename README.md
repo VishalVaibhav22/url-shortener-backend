@@ -29,7 +29,7 @@ A scalable URL shortener backend built with **Node.js**, **Express**, **MongoDB*
 
 ## High-Level Architecture
 
-```
+
 Client
   ↓
 Load Balancer
@@ -41,7 +41,7 @@ Backend Instances
   Redis Cache
       ↓
   MongoDB
-```
+
 
 - Redis serves repeated redirect requests to reduce database load
 - MongoDB acts as the persistent data store
@@ -132,5 +132,5 @@ npm run dev
 ## License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project for personal and commercial purposes.
+
 See the [LICENSE](LICENSE) file for details.
-```
